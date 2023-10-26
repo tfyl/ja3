@@ -1,4 +1,4 @@
-module github.com/gospider007/ja3
+module github.com/tfyl/ja3
 
 go 1.21.3
 
