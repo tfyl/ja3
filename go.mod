@@ -1,4 +1,4 @@
-module github.com/tfyl/ja3
+module github.com/gospider007/ja3
 
 go 1.21.3
 
@@ -35,4 +35,10 @@ require (
 	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/tools v0.14.0 // indirect
+)
+
+replace (
+	github.com/gospider007/gtls latest => github.com/tfyl/gtls latest
+	github.com/gospider007/re latest => github.com/tfyl/re latest
+	github.com/gospider007/tools latest => github.com/tfyl/tools latest
 )
